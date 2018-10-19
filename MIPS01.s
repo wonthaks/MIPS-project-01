@@ -15,6 +15,12 @@ main:
 	addi $a0, $a0, 6	#add value to $a0 register to print out integer 8
 	syscall
 	
+	addi $a0, $a0, -3	#subtract value from $a0 register to print out integer 5
+	syscall
+	
+	addi $a0, $a0, 4	#add value to $a0 register to print out integer 9
+	syscall
+	
 	
 	li $v0, 10			#to end the program
 	syscall
