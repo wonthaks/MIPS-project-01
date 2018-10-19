@@ -27,5 +27,10 @@ main:
 	addi $a0, $a0, 4	#add value to $a0 register to print out integer 5
 	syscall
 	
+	addi $a0, $a0, -4	#subtract value from $a0 register to print out integer 1
+	syscall
+	
+	li $v0, 11			#li 11 to print out characters again
+	
 	li $v0, 10			#to end the program
 	syscall
