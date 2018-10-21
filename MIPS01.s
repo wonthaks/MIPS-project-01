@@ -32,5 +32,11 @@ main:
 	
 	li $v0, 11			#li 11 to print out characters again
 	
+	addi $a0, $a0, 9	#add value to $a0 register to print out a line feed character
+	syscall
+	
+	addi $a0, $a0, 77	#add value to $a0 register to print out a W character
+	syscall
+	
 	li $v0, 10			#to end the program
 	syscall
