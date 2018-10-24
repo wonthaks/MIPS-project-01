@@ -44,5 +44,11 @@ main:
 	addi $a0, $a0, -1	#add value to $a0 register to print out a n character
 	syscall
 
+	addi $a0, $a0, 6	#add value to $a0 register to print out a t character
+	syscall
+	
+	addi $a0, $a0, -12	#add value to $a0 register to print out a h character
+	syscall
+
 	li $v0, 10			#to end the program
 	syscall
