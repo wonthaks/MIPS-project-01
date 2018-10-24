@@ -68,5 +68,11 @@ main:
 	addi $a0, $a0, 22	#add value to $a0 register to print out a w character
 	syscall
 	
+	addi $a0, $a0, -87	#add value to $a0 register to print out a space character
+	syscall
+	
+	addi $a0, $a0, 51	#add value to $a0 register to print out a S character
+	syscall
+	
 	li $v0, 10			#to end the program
 	syscall
