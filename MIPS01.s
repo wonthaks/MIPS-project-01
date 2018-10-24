@@ -61,6 +61,12 @@ main:
 	
 	addi $a0, $a0, 46	#add value to $a0 register to print out a y character
 	syscall
+
+	addi $a0, $a0, -24	#add value to $a0 register to print out a a character
+	syscall
+	
+	addi $a0, $a0, 22	#add value to $a0 register to print out a w character
+	syscall
 	
 	li $v0, 10			#to end the program
 	syscall
