@@ -56,5 +56,11 @@ main:
 	addi $a0, $a0, -65	#add value to $a0 register to print out a space character
 	syscall
 
+	addi $a0, $a0, 43	#add value to $a0 register to print out a K character
+	syscall
+	
+	addi $a0, $a0, 46	#add value to $a0 register to print out a y character
+	syscall
+	
 	li $v0, 10			#to end the program
 	syscall
