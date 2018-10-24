@@ -74,5 +74,11 @@ main:
 	addi $a0, $a0, 51	#add value to $a0 register to print out a S character
 	syscall
 	
+	addi $a0, $a0, 14	#add value to $a0 register to print out a a character
+	syscall
+	
+	addi $a0, $a0, 13	#add value to $a0 register to print out a n character
+	syscall
+	
 	li $v0, 10			#to end the program
 	syscall
