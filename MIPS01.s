@@ -50,5 +50,11 @@ main:
 	addi $a0, $a0, -12	#add value to $a0 register to print out a h character
 	syscall
 
+	addi $a0, $a0, -7	#add value to $a0 register to print out a a character
+	syscall
+	
+	addi $a0, $a0, -65	#add value to $a0 register to print out a space character
+	syscall
+
 	li $v0, 10			#to end the program
 	syscall
